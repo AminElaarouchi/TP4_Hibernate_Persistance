@@ -56,3 +56,17 @@ mvn exec:java
 ## Importer dans Eclipse
 
 Utilisez **File > Import > Maven > Existing Maven Projects**, puis choisissez ce dossier.
+
+## Résultat vérifié
+
+Commande exécutée le 3 novembre 2026 :
+
+```powershell
+mvn -B test
+```
+
+3 tests d’intégration réussis avec H2 (0 échec). La démonstration MySQL n’a pas été lancée.
+
+![Résultat de la vérification dans le terminal](docs/verification-terminal.png)
+
+L’image est une transcription visuelle de la sortie réelle de vérification ; la capture native de la fenêtre du terminal n’était pas disponible dans cet environnement.
